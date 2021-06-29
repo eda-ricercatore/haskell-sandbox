@@ -63,4 +63,20 @@ References:
 
 
 
+## String Operations
+
+## Substring Operations
+
+
+
+To remove the initial and trailing substrings using the number of characters, try the following.
+
+```
+take 3 $ drop 2 "1234567890"
+```
+
+
+Reference:
++ Rosetta Code contributors, "Substring: Haskell: Strings," from Rosetta Code, June 8, 2021. Available online from Rosetta Code: Explore: Programming Tasks category: S: Substring: Haskell: Strings at: https://rosettacode.org/wiki/Substring#Haskell; June 29, 2021 was the last access date.
+
 
