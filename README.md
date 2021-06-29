@@ -163,6 +163,11 @@ Reference:
 
 ## Additional Notes
 
+### Operators for Value Assignment
 
+Assign values to variables via the `<-` operator.
 
+In the `let` environment, the `=` operator can also store the result of evaluating an expression, a function, or combination of functions. 
 
+The following are invalid operators:
++ `<=`
