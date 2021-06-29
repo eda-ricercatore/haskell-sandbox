@@ -35,6 +35,10 @@ main = do zt <- getZonedTime
 
 References:
 + newacct, Answer to "How to produce a local datetime string in Haskell?", Stack Exchange Inc., New York, NY, September 28, 2009. Available online from Stack Exchange Inc.: Stack Overflow: Questions at: https://stackoverflow.com/a/1485011/1531728; June 29, 2021 was the last access date.
++ William Yao, "A Cheat Sheet to the Time Library," from Welcome to All Those Learning Haskell blog, September 16, 2019. Available online from Welcome to All Those Learning Haskell blog at: https://williamyaoh.com/posts/2019-09-16-time-cheatsheet.html; self-published; June 29, 2021 was the last access date.
+
+
+
 
 
 To extract the date information from the local date and time information stored in the `Day` object, try the following from Farina2021.
@@ -60,6 +64,31 @@ References:
 	- Daniel Farina, Answer to "How can I change the output of getZonedTime to a string with the format “Year-Month-Day” in Haskell?", Stack Exchange Inc., New York, NY, June 28, 2021. Available online from Stack Exchange Inc.: Stack Overflow: Questions at: https://stackoverflow.com/a/68170959/1531728; June 28, 2021 was the last access date.
 + Fletcher2021
 	- David Fletcher, Answer to "How can I change the output of getZonedTime to a string with the format “Year-Month-Day” in Haskell?", Stack Exchange Inc., New York, NY, June 29, 2021. Available online from Stack Exchange Inc.: Stack Overflow: Questions at: https://stackoverflow.com/a/68176960/1531728; June 29, 2021 was the last access date.
+
+
+
+
+
+To obtain the UTC date and time information, or the date and time information for the UTC time zone, try the following.
+
+```
+getCurrentTime :: IO UTCTime
+
+data UTCTime = UTCTime
+  { utctDay     :: Day       -- calendar day
+  , utctDayTime :: DiffTime  -- seconds from midnight
+  }
+
+now <- getCurrentTime
+now
+```
+
+Reference:
++ William Yao, "A Cheat Sheet to the Time Library," from Welcome to All Those Learning Haskell blog, September 16, 2019. Available online from Welcome to All Those Learning Haskell blog at: https://williamyaoh.com/posts/2019-09-16-time-cheatsheet.html; self-published; June 29, 2021 was the last access date.
+
+
+
+
 
 
 
