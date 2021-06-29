@@ -19,6 +19,49 @@ Reference:
 + David dfeuer Feuer, Answer to "How do I use if-then-else statement with no else condition in Haskell?", Stack Exchange Inc., New York, NY, May 22, 2018. Available online from Stack Exchange Inc.: Stack Overflow: Questions at: https://stackoverflow.com/a/50473375/1531728; June 29, 2021 was the last access date.
 
 
+
+### Using Recursion as Loop Replacement 
+
+Since *Python* does not support the usage of loops, we have to use recursion or functions applied to a set of data (or range of values).
+
+Here is an example of using recursion to implement `while` loops.
+
+```
+import Control.Monad (unless)
+
+prompt :: IO ()
+prompt = do
+    -- get input from user
+    l <- getLine
+    -- unless will execute its block if the condition is False
+    unless (l == "q") $ do
+        -- echo back to the user
+        putStrLn $ "You entered: " ++ l
+        prompt  -- recursive step here
+```
+
+
+Reference:
++ Aaron bheklilr Stevens, Answer to "What is the equivalent statement of a while loop in Haskell?",  Stack Exchange Inc., New York, NY, December 10, 2014. Available online from Stack Exchange Inc.: Stack Overflow: Questions at: https://stackoverflow.com/a/27404480/1531728; June 29, 2021 was the last access date.
+
+
+
+Reference:
++ Sebastian Mach, Answer to "What is the equivalent statement of a while loop in Haskell?",  Stack Exchange Inc., New York, NY, December 10, 2014. Available online from Stack Exchange Inc.: Stack Overflow: Questions at: https://stackoverflow.com/a/27404480/1531728; June 29, 2021 was the last access date.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Date and Time Operations
 
 ### Obtaining and Processing the Local Date and Time Information
@@ -107,5 +150,11 @@ take 3 $ drop 2 "1234567890"
 
 Reference:
 + Rosetta Code contributors, "Substring: Haskell: Strings," from Rosetta Code, June 8, 2021. Available online from Rosetta Code: Explore: Programming Tasks category: S: Substring: Haskell: Strings at: https://rosettacode.org/wiki/Substring#Haskell; June 29, 2021 was the last access date.
+
+
+
+## Additional Notes
+
+
 
 
