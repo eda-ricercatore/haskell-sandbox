@@ -46,8 +46,16 @@ Reference:
 
 
 
+
+
+Use functions from families of functions, such as `map`, `filter`, and `fold`, to perform operations over a set/range of values. 
++ "use map family of functions over a range of values to produce a new range of values"
++ "use filter family of functions over a range of values to produce a new subset of that range, with certain conditions fulfilled"
++ "use fold family of functions to aggregate something over that range"
+
+
 Reference:
-+ Sebastian Mach, Answer to "What is the equivalent statement of a while loop in Haskell?",  Stack Exchange Inc., New York, NY, December 10, 2014. Available online from Stack Exchange Inc.: Stack Overflow: Questions at: https://stackoverflow.com/a/27404480/1531728; June 29, 2021 was the last access date.
++ Sebastian Mach, Answer to "What is the equivalent statement of a while loop in Haskell?",  Stack Exchange Inc., New York, NY, December 10, 2014. Available online from Stack Exchange Inc.: Stack Overflow: Questions at: https://stackoverflow.com/a/27404168/1531728; June 29, 2021 was the last access date.
 
 
 
