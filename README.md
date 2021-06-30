@@ -18,7 +18,8 @@ These scripts need to embed the *Haskell* source code within the *LaTeX* command
 "There are two different styles you can use, although you must use only one within a single file."
 
 
-Reference: chepner, Answer to "What is the extension for Haskell? [closed]", Stack Exchange Inc., New York, NY, June 10, 2016. Available online from Stack Exchange Inc.: Stack Overflow: Questions at: https://stackoverflow.com/a/37748411/1531728; June 29, 2021 was the last access date.
+Reference:
++ chepner, Answer to "What is the extension for Haskell? [closed]", Stack Exchange Inc., New York, NY, June 10, 2016. Available online from Stack Exchange Inc.: Stack Overflow: Questions at: https://stackoverflow.com/a/37748411/1531728; June 29, 2021 was the last access date.
 
 
 
