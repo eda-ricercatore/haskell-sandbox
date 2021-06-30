@@ -4,6 +4,24 @@ A sandbox for testing implementations of *Haskell* concepts that I am learning.
 
 It also include study notes for learning *Haskell*.
 
+## Basic Information to Get Started
+
+File extension for *Haskell* programs/scripts: `.hs`.
+
+The alternate file extension for *Haskell* programs/scripts, `.lhs`, seem to be for running *Haskell* scripts in the interactive mode.
+Specifically, "every line is considered a comment, unless it is explicitly marked as code."
+
+*Haskell* scripts written with the `.lhs` file extension and required style can be processed by documentation generators to produce *LaTeX* documentation.
+These scripts need to embed the *Haskell* source code within the *LaTeX* commands `\begin{code}` and `\end{code}`, and place `LaTeX` comments outside of these *LaTeX* commands.
+
+
+"There are two different styles you can use, although you must use only one within a single file."
+
+
+Reference: chepner, Answer to "What is the extension for Haskell? [closed]", Stack Exchange Inc., New York, NY, June 10, 2016. Available online from Stack Exchange Inc.: Stack Overflow: Questions at: https://stackoverflow.com/a/37748411/1531728; June 29, 2021 was the last access date.
+
+
+
 ## Control Operations
 
 Since *Haskell* is based on "typed lambda calculus," where lambda calculus is based on values and expressions, the `if-then-else` expression must reduce/yield a value. Hence, it requires both handling both the `if` condition and the `else` condition. Also, both of the aforementioned conditional handling must return a value.
