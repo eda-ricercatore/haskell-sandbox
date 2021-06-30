@@ -8,7 +8,7 @@ It also include study notes for learning *Haskell*.
 
 File extension for *Haskell* programs/scripts: `.hs`.
 
-The alternate file extension for *Haskell* programs/scripts, `.lhs`, seem to be for running *Haskell* scripts in the interactive mode.
+The alternate file extension for *Haskell* programs/scripts, `.lhs`, seems to be for running *Haskell* scripts in the interactive mode.
 Specifically, "every line is considered a comment, unless it is explicitly marked as code."
 
 *Haskell* scripts written with the `.lhs` file extension and required style can be processed by documentation generators to produce *LaTeX* documentation.
