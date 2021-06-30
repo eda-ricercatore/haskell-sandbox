@@ -12,7 +12,7 @@ The alternate file extension for *Haskell* programs/scripts, `.lhs`, seem to be 
 Specifically, "every line is considered a comment, unless it is explicitly marked as code."
 
 *Haskell* scripts written with the `.lhs` file extension and required style can be processed by documentation generators to produce *LaTeX* documentation.
-These scripts need to embed the *Haskell* source code within the *LaTeX* commands `\begin{code}` and `\end{code}`, and place `LaTeX` comments outside of these *LaTeX* commands.
+These scripts need to embed the *Haskell* source code within the *LaTeX* commands `\begin{code}` and `\end{code}`, and place `Haskell` comments outside of these *LaTeX* commands.
 
 
 "There are two different styles you can use, although you must use only one within a single file."
