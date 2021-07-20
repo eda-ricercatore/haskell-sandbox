@@ -11,10 +11,10 @@ getBirthday = do
 	  return birthday
 -- Main loop
 main = do
-	  current_date2 <- findCurrentTime
-	  --print current_date2
+	current_date2 <- findCurrentTime
+	--print current_date2
 	-- Dates match. Say "Happy Birthday!"
-	  if current_date2 == getBirthday
+	if current_date2 == getBirthday
 		then print "Happy Birthday, Dr. BLAH!"
 		-- Else, do nothing.
 		else pure ()
